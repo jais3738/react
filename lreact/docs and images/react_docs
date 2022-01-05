@@ -1,0 +1,274 @@
+F:\xampp\htdocs>npx create-react-app my-react-app
+npx: installed 67 in 9.463s
+
+Creating a new React app in F:\xampp\htdocs\my-react-app.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts with cra-template...
+
+
+> core-js@3.20.1 postinstall F:\xampp\htdocs\my-react-app\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js-pure@3.20.1 postinstall F:\xampp\htdocs\my-react-app\node_modules\core-js-pure
+> node -e "try{require('./postinstall')}catch(e){}"
+
++ react-scripts@5.0.0
++ react-dom@17.0.2
++ react@17.0.2
++ cra-template@1.1.3
+added 1375 packages from 622 contributors in 285.168s
+
+163 packages are looking for funding
+  run `npm fund` for details
+
+
+Initialized a git repository.
+
+Installing template dependencies using npm...
+npm WARN @apideck/better-ajv-errors@0.3.2 requires a peer of ajv@>=8 but none is installed. You must install peer dependencies yourself.
+npm WARN fork-ts-checker-webpack-plugin@6.5.0 requires a peer of typescript@>= 2.7 but none is installed. You must install peer dependencies yourself.
+npm WARN tsutils@3.21.0 requires a peer of typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.3.2 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ web-vitals@2.1.2
++ @testing-library/user-event@13.5.0
++ @testing-library/react@12.1.2
++ @testing-library/jest-dom@5.16.1
+added 33 packages from 81 contributors in 30.422s
+
+163 packages are looking for funding
+  run `npm fund` for details
+
+Removing template package using npm...
+
+npm WARN @apideck/better-ajv-errors@0.3.2 requires a peer of ajv@>=8 but none is installed. You must install peer dependencies yourself.
+npm WARN fork-ts-checker-webpack-plugin@6.5.0 requires a peer of typescript@>= 2.7 but none is installed. You must install peer dependencies yourself.
+npm WARN tsutils@3.21.0 requires a peer of typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.3.2 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+removed 1 package and audited 1408 packages in 9.697s
+
+163 packages are looking for funding
+  run `npm fund` for details
+
+found 1 moderate severity vulnerability
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+Created git commit.
+
+Success! Created my-react-app at F:\xampp\htdocs\my-react-app
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd my-react-app
+  npm start
+
+Happy hacking!
+
+F:\xampp\htdocs>
+
+=================================================================================================================================================================================
+=================================================================================================================================================================================
+=================================================================================================================================================================================
+F:\xampp\htdocs>cd my-react-app
+
+F:\xampp\htdocs\my-react-app>npm start
+
+> my-react-app@0.1.0 start F:\xampp\htdocs\my-react-app
+> react-scripts start
+
+(node:14772) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:14772) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+Compiled successfully!
+
+You can now view my-react-app in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.1.199:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+assets by path static/ 1.48 MiB
+  asset static/js/bundle.js 1.47 MiB [emitted] (name: main) 1 related asset
+  asset static/js/node_modules_web-vitals_dist_web-vitals_js.chunk.js 6.89 KiB [emitted] 1 related asset
+  asset static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg 2.57 KiB [emitted] (auxiliary name: main)
+asset index.html 1.67 KiB [emitted]
+asset asset-manifest.json 546 bytes [emitted]
+runtime modules 31.3 KiB 15 modules
+modules by path ./node_modules/ 1.35 MiB 89 modules
+modules by path ./src/ 18.1 KiB
+  modules by path ./src/*.css 8.82 KiB
+    ./src/index.css 2.72 KiB [built] [code generated]
+    ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./src/index.css 1.37 KiB [built] [code generated]
+    ./src/App.css 2.72 KiB [built] [code generated]
+    ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./src/App.css 2 KiB [built] [code generated]
+  modules by path ./src/*.js 5.64 KiB
+    ./src/index.js 1.78 KiB [built] [code generated]
+    ./src/App.js 2.48 KiB [built] [code generated]
+    ./src/reportWebVitals.js 1.38 KiB [built] [code generated]
+  ./src/logo.svg 3.61 KiB [built] [code generated]
+webpack 5.65.0 compiled successfully in 39963 ms
+
+
+============================================================================================================================================================================
+For deleting all files from the src folder::  
+============================================================================================================================================================================
+F:\xampp\htdocs\my-react-app\src>del *
+F:\xampp\htdocs\my-react-app\src\*, Are you sure (Y/N)? Y
+
+F:\xampp\htdocs\my-react-app\src>
+############################################################################################################################################################################
+														Installation of the React Project :: 
+############################################################################################################################################################################
+
+
+Microsoft Windows [Version 10.0.18362.175]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+F:\xampp\htdocs\react>npm install -g create-react-app
+C:\Program Files\nodejs\create-react-app -> C:\Program Files\nodejs\node_modules\create-react-app\index.js
++ create-react-app@5.0.0
+added 67 packages from 26 contributors in 17.01s
+
+F:\xampp\htdocs\react>create-react-app lreact
+
+Creating a new React app in F:\xampp\htdocs\react\lreact.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts with cra-template...
+
+
+> core-js@3.20.2 postinstall F:\xampp\htdocs\react\lreact\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js-pure@3.20.2 postinstall F:\xampp\htdocs\react\lreact\node_modules\core-js-pure
+> node -e "try{require('./postinstall')}catch(e){}"
+
++ react-dom@17.0.2
++ react-scripts@5.0.0
++ cra-template@1.1.3
++ react@17.0.2
+added 1368 packages from 620 contributors in 795.71s
+
+165 packages are looking for funding
+  run `npm fund` for details
+
+
+Installing template dependencies using npm...
+npm WARN @apideck/better-ajv-errors@0.3.2 requires a peer of ajv@>=8 but none is installed. You must install peer dependencies yourself.
+npm WARN fork-ts-checker-webpack-plugin@6.5.0 requires a peer of typescript@>= 2.7 but none is installed. You must install peer dependencies yourself.
+npm WARN tsutils@3.21.0 requires a peer of typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.3.2 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ @testing-library/user-event@13.5.0
++ @testing-library/react@12.1.2
++ web-vitals@2.1.2
++ @testing-library/jest-dom@5.16.1
+added 33 packages from 81 contributors in 22.118s
+
+165 packages are looking for funding
+  run `npm fund` for details
+
+Removing template package using npm...
+
+npm WARN @apideck/better-ajv-errors@0.3.2 requires a peer of ajv@>=8 but none is installed. You must install peer dependencies yourself.
+npm WARN fork-ts-checker-webpack-plugin@6.5.0 requires a peer of typescript@>= 2.7 but none is installed. You must install peer dependencies yourself.
+npm WARN tsutils@3.21.0 requires a peer of typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.3.2 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+removed 1 package and audited 1401 packages in 10.009s
+
+165 packages are looking for funding
+  run `npm fund` for details
+
+found 1 moderate severity vulnerability
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+Success! Created lreact at F:\xampp\htdocs\react\lreact
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd lreact
+  npm start
+
+Happy hacking!
+
+F:\xampp\htdocs\react>cd lreact
+
+F:\xampp\htdocs\react\lreact>npm start
+
+> lreact@0.1.0 start F:\xampp\htdocs\react\lreact
+> react-scripts start
+
+(node:16828) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:16828) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+Compiled successfully!
+
+You can now view lreact in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.1.103:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+assets by path static/ 1.49 MiB
+  asset static/js/bundle.js 1.48 MiB [emitted] (name: main) 1 related asset
+  asset static/js/node_modules_web-vitals_dist_web-vitals_js.chunk.js 6.88 KiB [emitted] 1 related asset
+  asset static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg 2.57 KiB [emitted] (auxiliary name: main)
+asset index.html 1.67 KiB [emitted]
+asset asset-manifest.json 546 bytes [emitted]
+runtime modules 31.3 KiB 15 modules
+modules by path ./node_modules/ 1.35 MiB 90 modules
+modules by path ./src/ 18.1 KiB
+  modules by path ./src/*.css 8.82 KiB
+    ./src/index.css 2.72 KiB [built] [code generated]
+    ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./src/index.css 1.37 KiB [built] [code generated]
+    ./src/App.css 2.72 KiB [built] [code generated]
+    ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./src/App.css 2 KiB [built] [code generated]
+  modules by path ./src/*.js 5.65 KiB
+    ./src/index.js 1.78 KiB [built] [code generated]
+    ./src/App.js 2.49 KiB [built] [code generated]
+    ./src/reportWebVitals.js 1.38 KiB [built] [code generated]
+  ./src/logo.svg 3.61 KiB [built] [code generated]
+webpack 5.65.0 compiled successfully in 64794 ms

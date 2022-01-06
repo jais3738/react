@@ -1,0 +1,72 @@
+Microsoft Windows [Version 10.0.18362.175]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\jaik>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\jaik>cd ls
+The system cannot find the path specified.
+
+C:\Users\jaik>nvm -v
+
+Running version 1.1.7.
+
+Usage:
+
+  nvm arch                     : Show if node is running in 32 or 64 bit mode.
+  nvm install <version> [arch] : The version can be a node.js version or "latest" for the latest stable version.
+                                 Optionally specify whether to install the 32 or 64 bit version (defaults to system arch).
+                                 Set [arch] to "all" to install 32 AND 64 bit versions.
+                                 Add --insecure to the end of this command to bypass SSL validation of the remote download server.
+  nvm list [available]         : List the node.js installations. Type "available" at the end to see what can be installed. Aliased as ls.
+  nvm on                       : Enable node.js version management.
+  nvm off                      : Disable node.js version management.
+  nvm proxy [url]              : Set a proxy to use for downloads. Leave [url] blank to see the current proxy.
+                                 Set [url] to "none" to remove the proxy.
+  nvm node_mirror [url]        : Set the node mirror. Defaults to https://nodejs.org/dist/. Leave [url] blank to use default url.
+  nvm npm_mirror [url]         : Set the npm mirror. Defaults to https://github.com/npm/cli/archive/. Leave [url] blank to default url.
+  nvm uninstall <version>      : The version must be a specific version.
+  nvm use [version] [arch]     : Switch to use the specified version. Optionally specify 32/64bit architecture.
+                                 nvm use <arch> will continue using the selected version, but switch to 32/64 bit mode.
+  nvm root [path]              : Set the directory where nvm should store different versions of node.js.
+                                 If <path> is not set, the current root will be displayed.
+  nvm version                  : Displays the current running version of nvm for Windows. Aliased as v.
+
+
+C:\Users\jaik>nvm ls
+
+    16.3.0
+  * 14.17.0 (Currently using 64-bit executable)
+    10.16.0
+
+C:\Users\jaik>nvm install 12.16.2
+Downloading node.js version 12.16.2 (64-bit)...
+Complete
+Creating C:\Users\jaik\AppData\Roaming\nvm\temp
+
+Downloading npm version 6.14.4... Complete
+Installing npm v6.14.4...
+
+Installation complete. If you want to use this version, type
+
+nvm use 12.16.2
+
+C:\Users\jaik>nvm list
+
+    16.3.0
+  * 14.17.0 (Currently using 64-bit executable)
+    12.16.2
+    10.16.0
+
+C:\Users\jaik>nvm use 12.16.2
+Now using node v12.16.2 (64-bit)
+
+C:\Users\jaik>nvm list
+
+    16.3.0
+    14.17.0
+  * 12.16.2 (Currently using 64-bit executable)
+    10.16.0
+
+C:\Users\jaik>

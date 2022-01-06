@@ -1,3 +1,50 @@
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+			Check npm , node and React version using terminal
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+	F:\xampp\htdocs\react\lreact>npm -v
+	6.14.13
+
+	F:\xampp\htdocs\react\lreact>node -v
+	v14.17.0
+
+	F:\xampp\htdocs\react\lreact>npm view react version
+	17.0.2
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+Fragment ::
+	Use <React.fragment> (or use shortcut, <></>) instead of <div>.
+		<React.Fragment>
+			<h1>Hello from Create React App</h1>
+			<p>I am in a React Component!</p>
+		</React.Fragment>
+		
+		OR
+		
+		<>
+			<h1>Hello from Create React App</h1>
+			<p>I am in a React Component!</p>
+		</>
+		
+		OR
+
+		<div>
+			<h1>Hello from Create React App</h1>
+			<p>I am in a React Component!</p>
+		<div />
+		
+StrictMode ::
+	During the development stage of your application, you’d want to get notified about any potential problems associated with your app so you can quickly address the issue(s).
+	React provides for us the StrictMode to activate checks and logs a warning message at runtime.
+	To enable it, we simply wrap our component with <React.StrictMode> like so:	
+
+react
+react-dom
+react-scripts
+cra-template
+
 F:\xampp\htdocs>npx create-react-app my-react-app
 npx: installed 67 in 9.463s
 
@@ -280,7 +327,9 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 Life Cycle :: 
 	render
 	state
-	componentWillMount
-	
-Storing data in components via ajax call
+	setState
+	componentWillMount // To Call the Apis
+		Storing data in components via ajax call
+		For Opensource api we can use below api 
+			https://api.randomuser.me/?nat=US&results=5
 

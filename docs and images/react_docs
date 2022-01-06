@@ -272,3 +272,15 @@ modules by path ./src/ 18.1 KiB
     ./src/reportWebVitals.js 1.38 KiB [built] [code generated]
   ./src/logo.svg 3.61 KiB [built] [code generated]
 webpack 5.65.0 compiled successfully in 64794 ms
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+		React Important Point 
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Life Cycle :: 
+	render
+	state
+	componentWillMount
+	
+Storing data in components via ajax call
+
